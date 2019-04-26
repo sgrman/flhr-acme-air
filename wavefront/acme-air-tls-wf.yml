@@ -354,10 +354,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - acme-air-tls.mylab.com
+    - acme-air-tls.flhrnet.local
     secretName: acme-air-tls
   rules:
-  - host: acme-air-tls.mylab.com
+  - host: acme-air-tls.flhrnet.local
     http:
       paths:
       - backend:

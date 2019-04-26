@@ -4,5 +4,5 @@ metadata:
   name: vsphere-default
 provisioner: kubernetes.io/vsphere-volume
 parameters: 
-  datastore: datastoreComp
+  datastore: FLHRNET_NFS01
   diskformat: thin

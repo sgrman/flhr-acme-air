@@ -345,7 +345,7 @@ metadata:
     ncp/rewrite_target: "/"
 spec:
   rules:
-  - host: acme-air.mylab.com
+  - host: acme-air.flhrnet.local
     http:
       paths:
       - backend:
