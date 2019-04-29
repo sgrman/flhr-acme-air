@@ -173,7 +173,7 @@ spec:
           value: mongodb
         - name: MONGO_PORT
           value: "27017"
-        image: harbor.mylab.com/acme/acmenode:1
+        image: harbor.mylab.com/acme/acmenode:v1
         imagePullPolicy: Always
         name: acme-web
         ports:
